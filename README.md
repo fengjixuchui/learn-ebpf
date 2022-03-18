@@ -10,14 +10,36 @@ First, please watch or star this repo, I'll be more happy if you follow me.
 Bug report, questions and discussion are welcome, you can post an issue or pull a request.
 ```
 
-
-
 ## 目录
-
 
 * [基础知识](docs/基础知识.md)
     * [clang与llvm](docs/基础知识/clang与llvm.md)
     * [BPF内核实现](docs/基础知识/BPF内核实现.md)
+    * [BPF指令集](docs/基础知识/BPF指令集.md)
+    * [JIT即时编译](docs/基础知识/JIT即时编译.md)
+    * [llvm对ebpf的支持](docs/基础知识/llvm对ebpf的支持.md)
+    * [tracepoint](docs/基础知识/tracepoint.md)
+    * [ustd](docs/基础知识/ustd.md)
+    * [kprobe与kretprobe](docs/基础知识/kprobe与kretprobe.md)
+    * [uprobe与uretprobe](docs/基础知识/uprobe与uretprobe.md)
+* [CVE漏洞](docs/CVE漏洞.md)
+    * [CVE-2021-31440](docs/CVE漏洞/CVE-2021-31440.md)
+    * [CVE-2021-3489](docs/CVE漏洞/CVE-2021-3489.md)
+* [bpftrace](docs/bpftrace.md)
+  * [命令帮助](docs/bpftrace/命令帮助.md)
+  * [举栗子](docs/bpftrace/举栗子.md)
+* [BPF子系统](docs/BPF子系统.md)
+  * [tracing](docs/BPF子系统/tracing.md)
+    * [kprobe](docs/BPF子系统/tracing/kprobe.md)
+    * [tracepoint](docs/BPF子系统/tracing/tracepoint.md)
+    * [perf_event](docs/BPF子系统/tracing/perf_event.md)
+  * [filter](docs/BPF子系统/filter.md)
+    * [sk_filter](docs/BPF子系统/filter/sk_filter.md)
+    * [sched_cls](docs/BPF子系统/filter/sched_cls.md)
+    * [sched_act](docs/BPF子系统/filter/sched_act.md)
+    * [xdp](docs/BPF子系统/filter/xdp.md)
+    * [cg_skb](docg_skbcs/BPF子系统/filter/xdp.md)
+* [BPF辅助函数](docs/BPF辅助函数.md)
 * [kubeArmor](docs/kubeArmor.md)
 * [falco](docs/falco.md)
 * [tracee](docs/tracee.md)
@@ -145,12 +167,15 @@ Bug report, questions and discussion are welcome, you can post an issue or pull 
     * [xfsslower](docs/bcc/xfsslower.md)
 
 
-
-
 ## 相关站点
 
 * <https://ebpf.io/>
+* <https://github.com/iovisor/bcc>
+* <https://github.com/cilium/cilium>
 
+---
+
+![20220314_211340_10](image/20220314_211340_10.png)
 
 
 ## 参考
@@ -158,11 +183,12 @@ Bug report, questions and discussion are welcome, you can post an issue or pull 
 * <https://zhuanlan.zhihu.com/p/470680443>
 
 
-
-
 ---
+![20220314_211613_88](image/20220314_211613_88.png)
 
-![20220308_215218_54](image/20220308_215218_54.png)
+![20220314_211747_11](image/20220314_211747_11.png)
+
+![20220314_211412_47](image/20220314_211412_47.png)
 
 
 ---
